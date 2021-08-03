@@ -24,9 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,6 +38,8 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
+
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,18 +53,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 
 //-------------------
@@ -72,22 +81,32 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
+console.log("Is 4 less than 9?", 4 < 9);
 //YOU DO: Explain.
+// log the result of the comparison is 4 less than 9. this comparison should output to true.
 
 var books = 3;
-console.logs(4 < books);
+console.log("Is the number 4 less than the amount of books?", 4 < books);
 // YOU DO: Explain.
+// the variable books has been assigned an integer datatype of 3. the comparison being logged here is asking us to compare the
+// number of books to the number 4. we are logging the result of the comparison "is 4 less than the books value?" which should
+// print out to false.
 
 var friends = 6;
 var siblings = 2;
-console.log(friends > siblings);
+console.log("Is the number of friends greater than the number of siblings?", friends > siblings);
 // YOU DO: Explain.
+// the variable friends has been declared with an integer value of 6. the variable siblings has been declared with an
+// integer value of 2. the comparison being printed is asking whether the value of friends is greater than the siblings value,
+// which should print out to true.
 
 var attendees = 9;
 var meals = 8;
-console.log(attendees !== meals);
+console.log("Does the number of attendees not strictly equal the number of meals?", attendees !== meals);
 // YOU DO: Explain.
+// the variable attendees has been declared with an integer value of 9. the variable meals has been declared with an integer
+// value of 8. the comparison being printed is asking "is the attendees value not strictly equal to the meals value.""
+// this should print out to true.
 
 
 //-------------------
@@ -110,18 +129,21 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log("Does the dog love to play and love treats?", lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log("Does the dog love to play and love the dog park?", lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log("Does the dog to play or love the dog park?", lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log("Does the dog love to play and is a puppy?", lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: the final line of code evaluated to the number 1. I'm thinking it's because the logical operator doesn't work
+// comparing values of different data types. It is going to print one of the values regardless, and it chose the value
+// for the age variable, which equals to the integer 1.
 
 //-------------------
 // FINAL CHECK
