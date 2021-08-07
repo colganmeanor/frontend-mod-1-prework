@@ -49,16 +49,16 @@ var plain = new Burrito("chicken", "flour tortilla", ["onions", "salsa", "cheese
 var spicy = new Burrito("pork", "corn tortilla", ["jalapeno peppers", "hot sauce", "chipotle peppers"])
 var supreme = new Burrito("steak", "flour tortilla", ["fajita veggies", "guacamole", "lettuce", "tomato"])
 // printing object instances below
-console.log(plain)
-console.log(spicy)
-console.log(supreme)
+console.log(plain);
+console.log(spicy);
+console.log(supreme);
 
 //printing object instances with class method changes below
 spicy.changeProtein();
-console.log(spicy)
+console.log(spicy);
 
 plain.addTopping();
-console.log(plain)
+console.log(plain);
 
 supreme.addTopping();
-console.log(supreme)
+console.log(supreme);

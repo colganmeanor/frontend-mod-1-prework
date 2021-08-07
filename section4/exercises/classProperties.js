@@ -73,7 +73,7 @@ class Dog {
 }
 
 var poodle = new Dog();
-console.log(poodle)
+console.log(poodle);
 
 
 // Prompt 2: Snack
@@ -87,7 +87,7 @@ class Snack {
 }
 
 var chips = new Snack();
-console.log(chips)
+console.log(chips);
 
 // Prompt 3:
 
@@ -100,7 +100,7 @@ class Shirt {
 }
 
 var niceShirt = new Shirt
-console.log(niceShirt)
+console.log(niceShirt);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -125,10 +125,10 @@ class Dog {
 }
 
 var poodle = new Dog("poodle", 30, true);
-console.log(poodle)
+console.log(poodle);
 
 var labrador = new Dog("labrador", 50, false);
-console.log(labrador)
+console.log(labrador);
 
 
 // Prompt 2: Snack
@@ -142,10 +142,10 @@ class Snack {
 }
 
 var chips = new Snack("potato chips", "Lays", false);
-console.log(chips)
+console.log(chips);
 
 var grapes = new Snack("fruit", "Welch", true);
-console.log(grapes)
+console.log(grapes);
 
 // Prompt 3: Shirt
 
@@ -157,8 +157,8 @@ class Shirt {
   }
 }
 
-var niceShirt = new Shirt(true, false, "Nordstrom")
-console.log(niceShirt)
+var niceShirt = new Shirt(true, false, "Nordstrom");
+console.log(niceShirt);
 
-var tShirt = new Shirt(false, true, "Banana Republic")
-console.log(tShirt)
+var tShirt = new Shirt(false, true, "Banana Republic");
+console.log(tShirt);

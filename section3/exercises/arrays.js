@@ -24,7 +24,7 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-console.log(animals.length)
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
@@ -32,11 +32,11 @@ animals[2] = "Gorilla";
 console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-animals[3] = "Lions"
+animals[3] = "Lions";
 
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-console.log(animals[2])
+console.log(animals[2]);
 
 //-------------------
 // PART 2: Foods: Array Methods
@@ -47,32 +47,32 @@ var foods = ["pizza", "burger", "steak", "sandwich"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-console.log(foods.length)
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
 
 foods.unshift("broccolli");
-console.log(foods)
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
 
 foods.pop();
-console.log(foods)
+console.log(foods);
 
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 
-foods.push("milkshake", "hotdog", "donuts")
-console.log(foods)
+foods.push("milkshake", "hotdog", "donuts");
+console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
 
 foods.shift();
-console.log(foods)
+console.log(foods);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -126,14 +126,14 @@ if (percentBatteryLeft >= 15) {
   // or else if percentBatteryLeft is LESS than 15, but hasCharger is true, and chargerType is car, then prints the statement
   // "I can call an Uber"
 } else if (((percentBatteryLeft <= 15) && (hasCharger == true) && (chargerType == "car"))) {
-  console.log("I can call an Uber")
+  console.log("I can call an Uber");
   // or else if percentBatteryLeft is LESS than 15, and hasCharger is false - prints statement "I cannot call an Uber"
 } else if ((percentBatteryLeft <= 15) && (hasCharger == false)) {
-  console.log("I cannot call an Uber")
+  console.log("I cannot call an Uber");
   // or else if percentBatteryLeft is LESS than 15, hasCharger is true, but the chargerType is NOT equal to the string "car"
   // then prints the statement "I cannot call an Uber"
 } else if (((percentBatteryLeft <= 15) && (hasCharger == true) && (chargerType != "car"))) {
-  console.log("I cannot call an Uber.")
+  console.log("I cannot call an Uber.");
 }
 
 

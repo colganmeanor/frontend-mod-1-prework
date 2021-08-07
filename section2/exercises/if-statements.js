@@ -48,9 +48,9 @@ var dogAge = 1;
 if (dogAge <= 2) {
   console.log('This dog is just a puppy.');
 } else if (dogAge >= 10) {
-  console.log('This dog is elderly (but we still love him to bits).')
+  console.log('This dog is elderly (but we still love him to bits).');
 } else{
-  console.log('This dog is a healthy adult!')
+  console.log('This dog is a healthy adult!');
 }
 
 
@@ -75,9 +75,9 @@ var numQuarters = 1;
 
 // Write your conditional here
 if (numQuarters >= 2) {
-  console.log("I have enough money for a gumball")
+  console.log("I have enough money for a gumball");
 } else{
-  console.log("I don't have enough money for a gumball")
+  console.log("I don't have enough money for a gumball");
 }
 
 

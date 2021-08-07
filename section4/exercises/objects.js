@@ -39,25 +39,25 @@ console.log(animalNames);
 // Using the zoo that you created above, log the value of the first item in
 // the Object
 
-console.log(animalNames.lions)
+console.log(animalNames.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
 
-animalNames.monkeys = 10
+animalNames.monkeys = 10;
 
-console.log(animalNames.monkeys)
+console.log(animalNames.monkeys);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
-animalNames.goats = 999
+animalNames.goats = 999;
 
-console.log(animalNames.goats)
+console.log(animalNames.goats);
 
 // Add another animal to the zoo Object, and log the updated Object.
 
-animalNames.tigers = 21
+animalNames.tigers = 21;
 
-console.log(animalNames.tigers)
+console.log(animalNames.tigers);
 
 //-------------------
 // Part 2: Email

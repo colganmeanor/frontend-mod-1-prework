@@ -22,7 +22,7 @@ for (var i = 0; i < animals.length; i++) {
 var colgansAnimals = ["Sloth", "Dragon", "Penguin"];
 
 for (var i =0; i < colgansAnimals.length; i++) {
-  console.log("The " + colgansAnimals[i] + " is awesome!")
+  console.log("The " + colgansAnimals[i] + " is awesome!");
 }
 
 
@@ -32,7 +32,7 @@ for (var i =0; i < colgansAnimals.length; i++) {
 var shoppingList = ["eggs", "milk", "bacon", "bread"];
 
 for (var i = 0; i < shoppingList.length; i++) {
-  console.log("Add " + shoppingList[i] + " to shopping list.")
+  console.log("Add " + shoppingList[i] + " to shopping list.");
 }
 
 
@@ -42,7 +42,7 @@ for (var i = 0; i < shoppingList.length; i++) {
 var doubles = [5, 6, 7, 8, 9, 10]
 
 for (var i = 5; i < 11; i++) {
-  console.log(i + i)
+  console.log(i + i);
 }
 
 
@@ -51,7 +51,7 @@ for (var i = 5; i < 11; i++) {
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
 for (var i = 2; i < names.length; i++){
-  console.log("Happy Birthday " + names[i])
+  console.log("Happy Birthday " + names[i]);
 }
 
 
@@ -69,8 +69,8 @@ var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
 for (var i = 0; i < ages.length; i++) {
   if (ages[i] < 18) {
-  console.log("Oh no, you can't quite vote yet.")
+  console.log("Oh no, you can't quite vote yet.");
 } else if (ages[i] >= 18) {
-  console.log("Make sure you get out and vote!")
+  console.log("Make sure you get out and vote!");
 }
 }
